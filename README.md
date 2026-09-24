@@ -1,16 +1,55 @@
-# React + Vite
+# MAX Chat — GREEN-API Telegram Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal web-based messaging client built with React and Vite, using GREEN-API to send and receive Telegram text messages.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project was created as a React frontend assignment.
 
-## React Compiler
+The application provides a simple chat interface where users can:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Connect a GREEN-API Telegram instance
+- Create a chat using a Telegram chat ID
+- Send text messages
+- Receive incoming Telegram messages
+- Display outgoing and incoming messages separately
+- Handle GREEN-API notification queues
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite
+- GREEN-API Telegram integration
+- Send text messages
+- Receive incoming messages
+- Real-time-style message polling
+- Incoming/outgoing message separation
+- Error handling
+- Responsive interface
+- Minimal messenger-style UI
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+- GREEN-API Telegram API
+
+## Project Structure
+
+```text
+max-chat/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── services/
+│   │   └── greenApi.js
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
