@@ -53,3 +53,17 @@ max-chat/
 ├── package-lock.json
 ├── README.md
 └── vite.config.js
+
+**## Screenshots**
+
+### Login
+
+![Login screen](screenshots/login.png)
+
+### Chat
+
+![Chat interface](screenshots/chat-empty.png)
+
+### Sending and receiving messages
+
+![Messaging](screenshots/chat-messages.png)
